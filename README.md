@@ -1,6 +1,13 @@
 # Handwritten-Digits-Recognizer-Keras
 Deep neural network for recognizing handwritten digits using Keras API.
 
+## Prerequisites
+Python 3.6.7  
+Keras 2.2.4  
+tensorflow 1.13.1  
+numpy 1.16.2  
+mlxtend 0.15.0.0
+
 ## Layers
 The neural network has an input layer, 2 hidden layers and an output layer. The input layer consists of 784 neuros and the same applies for first hidden layer. The second hidden layer consists of 100 neurons and the output has 10 neurons.
 
@@ -14,7 +21,7 @@ The network uses categorical cross-entropy as loss function.
 The network uses Adam optimizer.
 
 ## Training/Test Data
-The link for downloading the MNIST data that were used is provided below. It contains 60.000 training examples and 10.000 test examples.
+The link for downloading the MNIST data that were used is provided below. It contains 60.000 training examples and 10.000 test examples.  
 http://yann.lecun.com/exdb/mnist/
 
 ## Model Training
