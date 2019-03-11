@@ -21,12 +21,12 @@ Y_test = to_categorical(Y_test)
 
 model = Sequential()
 
-# input layer
+# input layer and 1st hidden layer
 model.add(Dense(784, input_shape=(784,)))
 model.add(BatchNormalization())
 model.add(Activation('relu'))
 
-# hidden layer
+# 2nd hidden layer
 model.add(Dense(100))
 model.add(BatchNormalization())
 model.add(Activation('relu'))
